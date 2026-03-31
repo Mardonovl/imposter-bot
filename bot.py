@@ -23,8 +23,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 import os
-TOKEN = os.environ.get("BOT_TOKEN", "")
-
+# TOKEN = os.environ.get("BOT_TOKEN", "")
+TOKEN="8674706974:AAEf7abZysSOzbPejCKCcAB4xIAd7UenZ8Y"
 WORDS = [
     "olma", "nok", "uzum", "shaftoli", "gilos", "limon", "apelsin",
     "banan", "anor", "qovun", "tarvuz", "behi", "anjir", "xurmo",
