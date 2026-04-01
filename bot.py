@@ -40,7 +40,7 @@ WORDS = [
     "Oq akula", "Pingvin", "Chayon", "Ajdaho", "Koala",
 
     # Buyumlar, mevalar va brendlar
-    "Banan", "Oltin tish", "iPhone", "Coca-Cola", "Uchar tarelka" "Bitkoin", "Selfi-tayoq", "Mikroskop", "Teleskop",
+    "Banan", "Oltin tish", "iPhone", "Coca-Cola", "Uchar tarelka", "Bitkoin", "Selfi-tayoq", "Mikroskop", "Teleskop",
 
     # Kutilmagan tushunchalar
     "Vaqt mashinasi", "Qora tuynuk",  "Kanditsioner", "Parashyut",
@@ -132,9 +132,9 @@ def short_name(p) -> str:
 
 
 def calc_impostors(count: int) -> int:
-    if count >= 15:
+    if count >= 13:
         return 3
-    if count >= 10:
+    if count >= 8:
         return 2
     return 1
 
