@@ -455,7 +455,7 @@ async def cmd_start_private(message: Message):
 
     await message.answer(
         "👋 Salom! Men <b>Imposter</b> o'yini botiman.\n\n"
-        "Guruhga qo'shing va guruhda <b>/game</b> buyrug'ini yozing!\n\n"
+        "Guruhga qo'shing va guruhda <b>/play</b> buyrug'ini yozing!\n\n"
         "✅ Endi o'yin boshlanishi bilan so'zingizni qabul qilishga tayyorsiz!"
     )
 
