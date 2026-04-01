@@ -26,14 +26,26 @@ import os
 # TOKEN = os.environ.get("BOT_TOKEN", "")
 TOKEN="8674706974:AAEf7abZysSOzbPejCKCcAB4xIAd7UenZ8Y"
 WORDS = [
-    "olma", "nok", "uzum", "shaftoli", "gilos", "limon", "apelsin",
-    "banan", "anor", "qovun", "tarvuz", "behi", "anjir", "xurmo",
-    "malina", "qulupnay", "lavlagi", "sabzi", "piyoz", "kartoshka",
-    "pomidor", "bodring", "karam", "salat", "ismaloq", "qovoq",
-    "makkajo'xori", "bug'doy", "guruch", "no'xat", "mushuk", "it",
-    "ot", "sigir", "qo'y", "echki", "tovuq", "o'rdak", "g'oz", "quyon",
-    "arava", "velosiped", "mashina", "samolyot", "kema", "poyezd",
-    "kalit", "qulf", "stol", "stul", "kitob", "qalam", "daftar",
+    # Mashhur joylar va obidalar
+    "Eyfel minorasi", "Misr ehromlari", "Oq uy", "Bermud uchburchagi", "Mars",
+    "Antarktida", "Xitoy devori", "Vatikan", "Disney-lend", "Sahroi kabir",
+
+    # Qiziqarli personajlar va shaxslar
+    "Gitler", "King Kong", "Mario", "Pikachu", "Sherlok Xolms",
+    "Betmen", "Drakula", "Tanos", "Shrek", "Garri Potter",
+    "Joker", "Terminator", "Napoleon", "Eynshteyn", "Monaliza",
+
+    # Hayvonlar va mavjudotlar (noodatiy)
+    "Yagona shox (Unicorn)", "Feniks qushi", "Dinozavr", "Kenguru", "Mamont",
+    "Oq akula", "Pingvin", "Chayon", "Ajdaho", "Koala",
+
+    # Buyumlar, mevalar va brendlar
+    "Banan", "Oltin tish", "iPhone", "Coca-Cola", "Uchar tarelka",
+    "Dasturlash kodi", "Bitkoin", "Selfi-tayoq", "Mikroskop", "Teleskop",
+
+    # Kutilmagan tushunchalar
+    "Vaqt mashinasi", "Qora tuynuk",  "Kanditsioner", "Parashyut",
+    "Kriptovalyuta", "Simsiz quloqchin", "Robot", "Kosmik kema", "Gologramma"
 ]
 
 REGISTRATION_TIME = 60
