@@ -40,8 +40,7 @@ WORDS = [
     "Oq akula", "Pingvin", "Chayon", "Ajdaho", "Koala",
 
     # Buyumlar, mevalar va brendlar
-    "Banan", "Oltin tish", "iPhone", "Coca-Cola", "Uchar tarelka",
-    "Dasturlash kodi", "Bitkoin", "Selfi-tayoq", "Mikroskop", "Teleskop",
+    "Banan", "Oltin tish", "iPhone", "Coca-Cola", "Uchar tarelka" "Bitkoin", "Selfi-tayoq", "Mikroskop", "Teleskop",
 
     # Kutilmagan tushunchalar
     "Vaqt mashinasi", "Qora tuynuk",  "Kanditsioner", "Parashyut",
