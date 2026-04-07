@@ -44,7 +44,27 @@ WORDS = [
 
     # Kutilmagan tushunchalar
     "Vaqt mashinasi", "Qora tuynuk",  "Kanditsioner", "Parashyut",
-    "Kriptovalyuta", "Simsiz quloqchin", "Robot", "Kosmik kema", "Gologramma"
+    "Kriptovalyuta", "Simsiz quloqchin", "Robot", "Kosmik kema", "telefon", "suv", "labaratoriya", "kostyum", "italiya", "bog'", "park",
+    "kinoteatr", "Mall", "bozor", "universitet", "maktab", "bog'cha", "xiyobon",
+    "qurilish maydoni", "sport zal", "kafe", "bar", "avtobus bekati", "aeroport",
+    "tog'", "II jahon urushi", "I jahon urushi", "Yevropa", "Buyuk Britaniya",
+    "Fransiya", "Italiya", "Qadimiy Rim", "Qadimgi misr", "San'at muzeyi",
+    "tarixiy muzey", "biznes markaz", "ofis", "Epidemiya", "Yura davri", "Mars",
+    "Oy", "Quyosh", "O'rta asrlar", "Kompyuter klub", "Billiard", "restarant",
+    "hokimiyat", "Instagram", "1900-yillar", "2000-yillar", "1800-yillar",
+    "Xitoy", "Osiyo", "Rossiya", "Yaponiya", "Hindiston", "Afrika", "Misr",
+    "Saudiya Arabistoni", "Isroil", "Avstraliya", "Antarktida", "Tinch okeani",
+    "Atlantika okeani", "zavod", "do'kon", "food court", "avtosalon",
+    "go'zallik saloni", "musiqa maktabi", "konsert zali", "avtoturargoh",
+    "oshxona", "mehmonxona", "facebook", "kollej", "daryo", "dengiz", "Turkiya",
+    "Janubiy Amerika", "Shimoliy Amerika", "COVID-19", "arxitektura",
+    "qandolat do'koni", "ferma", "qushxona", "elchixona", "coca-cola", "pepsi",
+    "tufli", "futbol maydoni", "basketbol maydoni", "hokkey", "muz saroyi",
+    "stol tennis", "ob-havo", "yomg'ir", "qor", "muzlik", "zoopark",
+    "sut emizuvchilar", "suv hayvonlari", "kid", "pingvin", "marvel", "DC",
+    "Betmen", "Leonardo Dicaprio", "Leonardo Davinci", "Eynshteyn", "Nyuton",
+    "Tesla", "Apple", "samsung", "qirollik"
+
 ]
 
 REGISTRATION_TIME = 60
