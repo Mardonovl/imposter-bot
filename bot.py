@@ -415,6 +415,30 @@ async def next_round(chat_id: int):
     players = get_alive_players(chat_id)
     names_list = "\n".join(f"  • {short_name(p)}" for p in players)
 
+    new_word = random.choice(WORDS)
+    db.execute(
+        "UPDATE players SET word=? WHERE chat_id=? AND is_alive=1 AND is_impostor=0",
+        (new_word, chat_id)
+    )
+    db.commit()
+
+    for p in players:
+        try:
+            if p["is_impostor"]:
+                await bot.send_message(
+                    p["user_id"],
+                    "🔴 <b>Siz IMPOSTERSIIZ!</b>\n\n"
+                    "Yangi aylana boshlandi. Ekipajni aldashda davom eting! 😈"
+                )
+            else:
+                await bot.send_message(
+                    p["user_id"],
+                    f"🟢 <b>Yangi so'zingiz:</b> <code>{new_word}</code>\n\n"
+                    f"Guruhda shu so'zga oid bitta so'z yozing. 🕵️"
+                )
+        except TelegramForbiddenError:
+            pass
+
     await bot.send_message(
         chat_id,
         f"📝 <b>{new_round}-aylana boshlandi!</b>\n\n"
